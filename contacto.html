@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<!-- Título y Estilo-->
+<head>
+	<meta charset=utf-8" /> 
+		<title>CONTACTO - Feria de Viajes 2025</title> 
+		<link rel="stylesheet" type="text/css" href="./estilos/estilos.css" />
+<script>
+	function enviarFormulario() {
+	const nombre = document.getElementById("nombre").value;
+	const apellido = document.getElementById("apellido").value;
+	const email = document.getElementById("email").value;
+	const telefono = document.getElementById("telefono").value;
+	const destinatario = "dgarmendia@birt.eus";
+	const asunto = "Nuevo formulario de contacto";
+	const cuerpo = `Nombre: ${nombre}%0D%0AApellido: ${apellido}%0D%0AEmail: ${email}%0D%0ATeléfono: ${telefono}`;
+	const mailtoLink = `mailto:${destinatario}?subject=${asunto}&body=${cuerpo}`;
+	window.location.href = mailtoLink;
+}
+</script>
+
+</head>
+
+<body>
+
+<!-- Título Introductorio-->
+<header>
+	<h1><center><a href="./index.html">FERIA de VIAJES 2025</a></center></h1>
+</header>
+
+
+<!-- Contenido principal -->
+<main>
+<section>
+	<article>
+		<center>
+  			<h1>Formulario de Contacto</h1>
+			<form onsubmit="event.preventDefault(); enviarFormulario();">
+			<label for="nombre">Nombre:</label><br>
+			<input type="text" id="nombre" name="nombre" required><br><br>
+			<label for="apellido">Apellido:</label><br>
+			<input type="text" id="apellido" name="apellido" required><br><br>
+			<label for="email">Email:</label><br>
+			<input type="email" id="email" name="email" required><br><br>
+			<label for="telefono">Telefono:</label><br>
+			<input type="tel" id="telefono" name="telefono" required><br><br>
+			<button type="submit">Enviar</button>
+			</form>
+		</center>
+	</article>
+</section>
+</main>
+
+<!-- Pie de Página -->
+<footer>
+	<table width= "100%" border= "0" aling=center>
+		<thead>
+			<tr>
+				<td><h4><center><p>Autor by dgarmendia & CopyRight 2025</p></center></h4></td>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td><h1><center><a href="./index.html">FERIA de VIAJES 2025</a></center></h1></td>	
+			</tr>
+		</tbody>
+	</table>
+</footer>
+
+</body>
+
+</html>
