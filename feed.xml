@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rss version="2.0">
+  <channel>
+    <title>Novedades de la Feria de Viajes 2025</title>
+	<link>https://dgarmendianow.github.io/feriadeviajes2025/</link>
+	<description>Las actualizaciones importantes</description>
+	<language>es-es</language>
+	<managingEditor>dgarmendia@birt.eus (Garmendia)</managingEditor>
+<!-- Item de Euskadi-->
+	<item>
+	  <title>Euskadi</title>
+	  <link>https://dgarmendianow.github.io/feriadeviajes2025/pais_euskadi.html</link>
+	  <description>Euskadi es el nuevo destino en la Feria de Viajes 2025</description>
+	  <guid isPermaLink="false">euskadi_2025</guid>
+	  <author>dgarmendia@birt.eus (Garmendia)</author>
+	  <pubDate>Wed, 12 Nov 2025 23:00:00 +0100</pubDate>
+    </item>
+<!-- Item de Argentina-->
+	<item>
+	  <title>Argentina</title>
+	  <link>https://dgarmendianow.github.io/feriadeviajes2025/pais_argentina.html</link>
+	  <description>Argentina es el nuevo destino en la Feria de Viajes 2025</description>
+	  <guid isPermaLink="false">argentina_2025</guid>
+	  <author>dgarmendia@birt.eus (Garmendia)</author>
+	  <pubDate>Wed, 12 Nov 2025 23:10:00 +0100</pubDate>
+    </item>	  	
+  </channel>
+</rss>
