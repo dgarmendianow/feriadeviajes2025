@@ -6,7 +6,7 @@
 	<description>Las actualizaciones importantes</description>
 	<language>es-es</language>
 	<managingEditor>dgarmendia@birt.eus (Garmendia)</managingEditor>
-<!-- Item de Euskadi
+<!-- Item de Euskadi -->
 	<item>
 	  <title>Euskadi</title>
 	  <link>https://dgarmendianow.github.io/feriadeviajes2025/pais_euskadi.html</link>
@@ -15,7 +15,6 @@
 	  <author>dgarmendia@birt.eus (Garmendia)</author>
 	  <pubDate>Wed, 12 Nov 2025 23:00:00 +0100</pubDate>
     </item>
-	-->
 <!-- Item de Argentina
 	<item>
 	  <title>Argentina</title>
